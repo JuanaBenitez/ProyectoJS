@@ -1,0 +1,260 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    background-color: #703e5b;
+    background-image: url(../imagen/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+  
+  
+  /*=== */
+  
+  ul li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  
+  .nav-item:hover {
+    background-color: azure; }
+  
+  
+  /* === */
+  .color-pink {
+    color: pink; }
+  
+  
+  /* === */
+  
+  .resumen {
+    background-color: none;
+    width: auto;
+    height: auto;
+    /** === **/
+    border: dashed 5px #0a0a09;
+    /** === **/
+    padding: 30px 60px;
+    /** === **/
+    margin: 15px 30px;
+    /** === **/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+     }
+  
+  
+  #texto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: justify;
+    color: white; }
+  
+  
+  
+  /* === */
+  .pie {
+    padding: 5px;
+    border: dashed 4px;
+    border-color: black;
+    
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto; }
+  
+  .pie div a {
+    background-color: black;
+    
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    border: solid 4px black;
+    transition: all 1s transform 2s; }
+   
+  .pie div a:hover {
+    background-color: blue;
+    transform: scale(2, 1);
+    color: pink; }
+  
+  /* === */
+  #top {
+    padding: 30px 25px;
+    width: auto;
+    height: auto;
+    /** === **/
+    border: solid 4px;
+    border-color: black;
+    /** === **/
+    margin: 5px 5px;
+    /** === **/
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 5px;
+  }
+  
+  
+  
+  #top div {
+    padding: 5px 30px;
+    border: dashed 4px black; } 
+   
+  
+  .top-imagen {
+    grid-area: top-imagen; }
+  
+  
+  
+  /** === **/
+  .flex-container3 {
+    background-color: none;
+    width: auto;
+    
+    /** === **/
+    border-style: dashed;
+    border-width: 5px;
+    border-color: black;
+    /** === **/
+    padding: 15px 10px;
+    /** === **/
+    margin: 15px 15px; }
+  
+  /** === **/
+  .flex-container {
+    background-color: none;
+    width: auto;
+    height: auto;
+    /** === **/
+    border: dashed 5px #0a0a09;
+    /** === **/
+    padding: 30px 60px;
+    /** === **/
+    margin: 15px 30px;
+    /** === **/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+  
+  .flex-container1 {
+    background-color: none;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px;
+    border: dashed 5px #0a0a09;
+   }
+    
+  
+  .flex-container2 {
+    background-color: none;
+    padding: 5px 5px 5px 5px; 
+    border: dashed 5px #0a0a09;
+  }
+  
+  .texto-resumen {
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+  }
+  
+  /**  ===   **/
+  
+  .carousel-item {
+    width: 95%;
+    height: 20%;
+    margin: 40px;
+  
+  }
+  
+  .nombre {
+    font-size: 45px;
+    border-style: bold;
+    text-decoration: underline;
+  }
+  
+  .facebook {
+    size: 100px;
+  
+  }
+  
+  .nav {
+    background-color: none;
+    padding: 30px 25px;
+    border: solid 4px;
+    border-color: black;
+    margin: 0px;
+    justify-content: end;
+  }
+  
+  /**media queries**/
+  
+  @media (max-width: 1024px) {
+    .nav {
+      font-size: 25px;
+     
+      margin: 10px 15px;   
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: start;
+    }
+  
+  }
+  /** media queries imagen principal**/
+  @media (max-width: 1024px) {
+    .top-imagen {
+      text-align: center;
+  
+    }
+  }
+  
+  /**===**/
+  
+  .titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: violet;
+    text-align: center;
+    font-size: 60px;
+   }
+  
+   /** media queries titulo**/
+  @media (max-width: 1024px) {
+    .titulo {
+      font-size: 40px;
+  
+    }
+  }
+  
+  /* === */
+  .beneficios {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; 
+  }
+  
+  /** media queries imagen beneficios**/
+  @media (max-width: 1024px) {
+    .beneficios {
+     font-size: 25px;
+   }
+  
+  }
+  /** === **/
+  .lista {
+    color: white;
+    font-size: 25px;
+  }
+  
+  /** media queries lista**/
+  @media (max-width: 1024px) {
+    .lista {
+      font-size: 20px;
+    }
+  }
+  
+  
+  
+  
+  
